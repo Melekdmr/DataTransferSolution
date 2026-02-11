@@ -13,13 +13,6 @@ Windows Service that automatically synchronizes data between two SQL Server data
 - **Temp Tables** (#temp) for staging
 - **SQL MERGE** for automatic INSERT/UPDATE/DELETE
 
-## ✨ Features
-
-- ✅ Automatic synchronization with configurable intervals
-- ✅ Full CRUD support (INSERT/UPDATE/DELETE)
-- ✅ 50x faster than traditional methods
-- ✅ Transaction safety with rollback support
-- ✅ Daily log files with operation tracking
 
 ## 📊 Performance
 
