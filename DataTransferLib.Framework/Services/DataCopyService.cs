@@ -10,12 +10,11 @@ using System.Threading.Tasks;
 
 namespace DataTransferLib.Services
 {
-    /// <summary>
-    /// REVİZE EDİLMİŞ VERSİYON:
-    /// 1. Bulk Insert ile hızlı veri aktarımı
-    /// 2. Temp Table (#) kullanımı
-    /// 3. MERGE ile INSERT/UPDATE/DELETE senkronizasyonu
-    /// </summary>
+
+    // Bulk Insert ile hızlı veri aktarımı
+    //Temp Table (#) kullanımı
+    // MERGE ile INSERT/UPDATE/DELETE senkronizasyonu
+
     public class DataCopyService
     {
         private readonly DbHelper _sourceDb;
@@ -27,9 +26,9 @@ namespace DataTransferLib.Services
             _targetDb = targetDb;
         }
 
-        /// <summary>
-        /// Ana kopyalama metodu - YENİ AKIŞ
-        /// </summary>
+    
+        // Ana kopyalama metodu 
+
         public void CopyData()
         {
             using (var sourceConn = _sourceDb.GetConnection())
@@ -70,7 +69,7 @@ namespace DataTransferLib.Services
         }
 
  
-    //1: Source tablosundan tüm veriyi oku
+    // Source tablosundan tüm veriyi oku
   
         private List<EmployeeModel> ReadSourceData(SqlConnection sourceConn)
         {

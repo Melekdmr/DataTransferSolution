@@ -23,7 +23,7 @@ namespace DataTransferLib.DataAccess
             _connectionString = connectionString;
         }
 
-        public SqlConnection GetConnection()
+        public SqlConnection GetConnection() //sql bağlantus nesnesi döndür - bağkantıyı getir
         {
             return new SqlConnection(_connectionString);
         }
