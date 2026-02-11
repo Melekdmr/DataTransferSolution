@@ -36,7 +36,7 @@ namespace DataTransferWinServices
             Logger.Log(new ServiceLog
             {
                 MethodName = "OnStart",
-                Description = "Servis başladı (REVİZE - Bulk+Temp+MERGE)"
+                Description = "Servis başladı (Bulk+Temp+Merge)"
             });
 
             StartTimerFromDb();
@@ -127,7 +127,7 @@ namespace DataTransferWinServices
                 Logger.Log(new ServiceLog
                 {
                     MethodName = "RunCopy",
-                    Description = "Kopyalama işlemi başladı (Bulk+Temp+MERGE)"
+                    Description = "Kopyalama işlemi başladı (Bulk+Temp+Merge)"
                 });
 
                 var sourceDb = new DbHelper(_sourceConnStr);
