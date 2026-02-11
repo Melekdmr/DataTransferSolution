@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="DataTransferLib.Framework/DataTransferLib.Framework.csproj" Id="5969dd20-130a-49dc-a711-418d2769cf5f" />
+  <Project Path="DataTransferWinServices/DataTransferWinServices.csproj" Id="05bea75d-d828-49e3-8d60-85b16fe669d4" />
+</Solution>
