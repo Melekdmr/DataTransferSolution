@@ -5,7 +5,7 @@
 [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.7.2-blue.svg)](https://dotnet.microsoft.com/)
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-2016%2B-red.svg)](https://www.microsoft.com/sql-server)
 
-## 🎯 Overvieww
+## 🎯 Overview
 
 Windows Service that automatically synchronizes data between two SQL Server databases using advanced techniques:
 
